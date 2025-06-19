@@ -1,0 +1,23 @@
+# Site settings
+title: Pedro Moreno
+email: your-email@example.com
+description: >-
+  Personal portfolio showcasing web development projects and tools.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://nennogabriel.github.io" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
